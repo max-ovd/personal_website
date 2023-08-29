@@ -1,8 +1,25 @@
-{% extends layouts.html %}
+{% extends "layout.html" %}
 
 
-{% block title %}Home Page {% endblock %}
+{% block title %} Home Page {% endblock %}
 
 {% block body %}
-<h1>Welcome to our home!</h1>
+
+<!-- NAVBAR -->
+<header>
+    <a href="/" id="logo">max.</a>
+    <nav>
+        <ul class="secondary-font">
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Gallery</a></li>
+            <li><a href="/">Links</a></li>
+        </ul>
+    </nav>
+    <div class="svg">
+        <a href="/"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/moon-line-icon.png"> </a>
+        <a href="/"> <img src="https://www.svgrepo.com/download/13652/magnifying-glass.svg"> </a>
+    </div>
+</header>
+
 {% endblock %}

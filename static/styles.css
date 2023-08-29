@@ -1,0 +1,70 @@
+
+html {
+    background-color: #0A0D14;
+}
+
+.primary-font {
+    font-family: Rubik, Rubik-fallback, Helvetica, Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Noto Color Emoji, Segoe UI Symbol, Android Emoji, EmojiSymbols, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Noto Sans, sans-serif;
+}
+
+.secondary-font {
+    font-family: Lato, Lato-fallback, Helvetica, Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Noto Color Emoji, Segoe UI Symbol, Android Emoji, EmojiSymbols, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Noto Sans, sans-serif;
+}
+
+/* NAVBAR */
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 16px 10px 16px;
+}
+
+li a {
+    font-family: Lato;
+    font-weight: 500;
+    color: #B6B7B9;
+    text-decoration: none;
+}
+
+li a:hover, a:active {
+    color: #ffff;
+}
+
+
+
+
+/* IMAGES */
+
+
+.svg img {
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+    filter: invert(100%);
+}
+
+#logo {
+    font-family: Lato, sans-serif;
+    color:aliceblue;
+    font-size: 16px;
+    font-weight:900;
+    text-decoration: none;
+    text-shadow: 4px 0 black;
+    letter-spacing: 2px;
+
+    margin-left: 20px;
+    
+}
+
