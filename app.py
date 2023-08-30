@@ -45,5 +45,9 @@ def get_time():
     currentTime = currentDateAndTime.strftime("%H:%M")
     return currentTime
     
+@app.errorhandler(Exception)
+def all_exception_handler(error):
+    return 'Uh oh, you had an error: ' + str(error.code)
+
 if __name__ == "__main__":
     app.run(debug=True)

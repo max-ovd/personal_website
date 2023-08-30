@@ -73,7 +73,7 @@ main {
     font-family: Lato;
     font-size: 16px;
     line-height: 24px;
-    padding: 0px 24% 20% 24%;
+    margin: 0px 24% 12% 24%;
     margin-top: 100px;
 }
 
@@ -126,6 +126,7 @@ main {
 
 /* BUTTONS */
 .btn {
+    box-sizing: border-box;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -133,6 +134,8 @@ main {
 }
 
 .btn-sm {
+    width: 160px;
+    height: fit-content;
     padding: 10px 20px;
     margin: 20px;
 }
@@ -167,9 +170,7 @@ main {
     font-weight: 900;
     text-decoration: none;
     letter-spacing: normal;
-
     margin-left: 18px;
-
 }
 
 
