@@ -34,7 +34,7 @@ def get_location():
     url = (f"https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID={api_key}")
     res = requests.get(url)
     data = res.json()
-    temp = data['main']['temp']
+    temp = round(data['main']['temp'])
 
 
 

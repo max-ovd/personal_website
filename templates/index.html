@@ -5,7 +5,7 @@
 
 {% block body %}
 
-<!-- NAVBAR -->
+<!-- NavBar -->
 <header>
     <a href="/" id="logo">maxim.</a>
     <nav>
@@ -17,12 +17,46 @@
         </ul>
     </nav>
     <div class="icons">
-        <a href="/"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/moon-line-icon.png"> </a>
+        <a href="/"> <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/moon-line-icon.png">
+        </a>
         <a href="/"> <img src="https://www.svgrepo.com/download/13652/magnifying-glass.svg"> </a>
     </div>
 </header>
+<!-- SideBar -->
+<div class="sidebar">
+    <a href="/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"></a>
+    <a href="/"><img src="https://www.pngkit.com/png/full/22-226319_twitter-icons-in-white.png"></a>
+    <a href="/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/facebook-icon-white-png.png"></a>
+    <a href="https://github.com/max-ovd"><img src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png"></a>
+</div>
 
+<h1 class="heading-sml"> It's {{ temp }}° at {{ time }} in {{ city }}, {{ country }}. </h1>
 
-<h1 style="color:azure;">in {{ city }}, {{ country }} it is {{ temp }} degrees at {{ time }}. </h1>
+<!-- Main Content -->
+<main>
+    <div>
+        <h4>           
+             Bonjour tous les amis a mon website :)
+        </h4>
+
+        <br>
+        <p>
+            Welcome to my homebase on the web, I use this domain to showcase my work, 
+            learn new frameworks, and explore new, interesting ways of building web experiences.
+        </p>
+        <p>
+            This iteration of maxim.com is built using Flask, HTML, and CSS! Explore my GitHub to see more of my projects! 
+        </p>
+        <button type="button" class=" btn btn-sm btn-border">Keep Reading  →</button>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <h2>featured projects.</h2>
+
+    </div>
+
+</main>
 
 {% endblock %}
