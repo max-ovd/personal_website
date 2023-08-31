@@ -12,9 +12,9 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 @app.route("/")
 def index():
-    city, country, temp = get_location()
-    time = get_time()
-    return render_template('index.html', city=city, country=country, temp=temp, time=time)
+    # city, country, temp = get_location()
+    # time = get_time()
+    return render_template('index.html') # , city=city, country=country, temp=temp, time=time
 
 
 

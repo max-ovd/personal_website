@@ -17,12 +17,12 @@
         </ul>
     </nav>
     <div class="icons">
-        <a href="/"> <img
-                src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/moon-line-icon.png">
-        </a>
-        <a href="/"> <img src="https://www.svgrepo.com/download/13652/magnifying-glass.svg"> </a>
+        <a href="#"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/moon-line-icon.png"> </a>
+        <a href="#"> <img src="https://www.svgrepo.com/download/13652/magnifying-glass.svg"> </a>
+        <a href="#"> <img id="menu" src="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png"> </a>
     </div>
 </header>
+
 <!-- SideBar -->
 <div class="sidebar">
     <a href="https://intagram.com"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"></a>
@@ -31,57 +31,74 @@
     <a href="https://github.com/max-ovd"><img src="https://assets-global.website-files.com/61d1b6e84887f53fef1dcdf2/631b45e07d98cfb364e5951f_github-white.png"></a>
 </div>
 
-<h1 class="heading-sml"> It's {{ temp }}° at {{ time }} in {{ city }}, {{ country }}. </h1>
+<h1 class="heading-sml"> It's 24° at 11:44 in toronto, Canada. </h1>
 
 <!-- Main Content -->
-<main>
-    <div id="introduction">
-        <h4>           
-             Bonjour tous les amis a mon website :)
-        </h4>
+<div class="main-wrapper">
+    <div class="left-space"></div>
+
+    <main>
+        <!-- Intoduction -->
+        <div id="introduction">
+            <h4>           
+                 Bonjour tous les amis a mon website :)
+            </h4>
+    
+            <br>
+            <p>
+                Welcome to my homebase on the web, I use this domain to showcase my work, 
+                learn new frameworks, and explore new, interesting ways of building web experiences to satisfy my curiousity!
+            </p>
+            <p>
+                This iteration of maxim.com is built using Flask, HTML, and CSS! Explore my GitHub to see more of my projects! 
+            </p>
+            <button type="button" class=" btn btn-sm btn-border">Keep Reading  →</button>
+        </div>
+    
 
         <br>
-        <p>
-            Welcome to my homebase on the web, I use this domain to showcase my work, 
-            learn new frameworks, and explore new, interesting ways of building web experiences to satisfy my curiousity!
-        </p>
-        <p>
-            This iteration of maxim.com is built using Flask, HTML, and CSS! Explore my GitHub to see more of my projects! 
-        </p>
-        <button type="button" class=" btn btn-sm btn-border">Keep Reading  →</button>
-    </div>
-    <br>
-    <hr>
-    <br>
+        <hr>
+        <br>
+    
 
-    <h2>featured projects. 👇</h2>
-
-    <div id="projects" class="projects-wrapper">
-        <!-- Flex Grid of div's rounded corners space in between -->
-        <div>One</div>
-        <div>Two</div>
-        <div>Three</div>
-        <div>Four</div>
+        <!-- Featured Projects -->
+        <h2>featured projects. 👇</h2>
+    
+        <div id="projects" class="projects-wrapper">
+            <div>One</div>
+            <div>Two</div>
+        </div>
+        <div class="projects-wrapper">
+            <div>Three</div>
+            <div>Four</div>
+        </div>
 
         <button type="button" class=" btn btn-sm btn-border">More Projects  →</button>
-    </div>
+    
 
-    <hr style="margin-top: 100px;">
-    <br>
+        <hr style="margin-top: 100px;">
+        <br>
+    
 
-    <!-- Footer -->
-    <div id="footer" class="footer-wrapper">
-        <!-- two items (emoji & text) space around and centered cross-axis -->
-        <div>
-            🦄⚡
+        <!-- Footer -->
+        <div id="footer" class="footer-wrapper">
+            <div>
+                🦄⚡
+            </div>
+            <div>
+                Built with <span class="blue-underline">Flask</span>, <span class="blue-underline"> HTML </span> and <span class="blue-underline">CSS</span> 
+                <br>
+                <span class="blue-underline">View in Git Hub  →</span>
+            </div>
         </div>
-        <div>
-            Built with <span class="blue-underline">Flask</span>, <span class="blue-underline"> HTML </span> and <span class="blue-underline">CSS</span> 
-            <br>
-            <span class="blue-underline">View in Git Hub  →</span>
-        </div>
-    </div>
-</main>
+    </main>
+
+    <div class="right-space"></div>
+</div>
+
+
+
+
 <footer>
     <span class="heading-sml">Thank you!</span>
 </footer>
